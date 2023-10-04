@@ -25,7 +25,7 @@ except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
         os.system('pip install requests')
-        os.system('python Fahad.py')
+        os.system('python Aliaqa.py')
 except:pass
 try:
     prox= requests.get('https://raw.githubusercontent.com/BestProfessionals/MUSLIWAHID/main/.prox.txt').text
@@ -356,7 +356,7 @@ def public():
                 print(' [+] \033[1;32m [+] Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 print('\033[1;97m [+]-------------------------------------------------------')
                 input(' [+] Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python Aliaqa.py')
                 menu() 
         except requests.exceptions.ConnectionError:
                 exit(f' [+] No internet connection')
@@ -546,7 +546,7 @@ def pak():
                 print(' [+]\033[1;32m [+] Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 print('\033[1;97m [+]-------------------------------------------------------')
                 input(' [+] Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python Aliaqa.py')
                 menu() 
  
 def afgan():
@@ -589,7 +589,7 @@ def afgan():
                 print(' [+]\033[1;32m [+] Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 print('\033[1;97m [+]-------------------------------------------------------')
                 input(' [+]Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python Aliaqa.py')
                 menu() 
  
 def bd():
